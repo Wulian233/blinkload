@@ -1,8 +1,8 @@
-### Changed
+### Added
 
-- The hash to use the list of enabled resource packs on top of the mod list
+- Localization support for the mod description (by [Wulian233](https://github.com/Wulian233) in [#15](https://github.com/steves-underwater-paradise/blinkload/pull/15))
+  - `zh_cn` mod description translation
 
 ### Fixed
 
-- Mipmap levels not being saved to the cache, causing broken mipmaps when loading atlas textures from the cache
-- An occasional native crash when saving atlas textures to the cache
+- Various crashes that could occur due to an invalid cache file or `IOException`s when reading from disk (by [Wulian233](https://github.com/Wulian233) in [#15](https://github.com/steves-underwater-paradise/blinkload/pull/15))
